@@ -12,16 +12,23 @@
 html{
   font-family: Helvetica, sans-serif;
 }
+section{
+  width: 70%;
+  margin: auto;
+}
+/* End Command common */
+
 /* Header  */
 
 /* Row */
 .container{
+  width: 100%;
   height: 50px;
   line-height: 50px;
   background-color: rgb(54,	93,	224)	; 
 }
 .row{
-  width: 80%;
+  width: 70%;
   margin: auto;
   line-height: 50px;
 }
@@ -40,10 +47,11 @@ nav ul, .logo{
 float: right;
 }
 .logo, .btn a{
-  width: 25%;
+  width: 20%;
 }
 ul{
-  width: 50%;
+  width: 60%;
+  margin-left: 50px;
 }
 .logo img{
   vertical-align: middle;
@@ -57,6 +65,8 @@ nav a{
   padding: 10px 16px;
   border-radius: 40px;
 }
+/* End Row  */
+
 /* Jumbotron */
 .jumbotron{
   height: 450px;
@@ -92,4 +102,44 @@ nav a{
 }
 .fas{
   margin-right: 10px;
+}
+/* End Jumbotron */
+
+/* End Header  */
+
+/* Main  */
+.img-section img, .img-inverted img{
+  width: 100%;
+}
+.img-section{
+  width: 50%;
+  float: left;
+}
+.text-section{
+  float: right;
+  width: 35%;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.text-section h2, .text-inverted h2{
+  font-size: 45px;
+  margin-top: 10px;
+}
+.text-section p, .text-inverted p{
+  font-size: 20px;
+  margin-top: 25px;
+  line-height: 30px;
+}
+section{
+  margin-top: 100px;
+}
+
+.img-inverted{
+  width: 55%;
+  float: right;
+}
+.text-inverted{
+  width: 35%;
+  margin-top: 20px;
+  float: left;
 }
