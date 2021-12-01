@@ -12,7 +12,7 @@
 html{
   font-family: Helvetica, sans-serif;
 }
-section{
+section, .container-footer, .final-footer{
   width: 70%;
   margin: auto;
 }
@@ -25,7 +25,7 @@ section{
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background-color: rgb(54,	93,	224)	; 
+  background-color: rgb(54,	93,	224); 
 }
 .row{
   width: 70%;
@@ -37,7 +37,7 @@ nav ul li{
   display: inline-block;
   margin-right: 40px;
 }
-nav ul li a, .btn a, .content a, .end-banner a{
+nav ul li a, .btn a, .content a, .end-banner a, footer a{
   text-decoration: none;
 }
 nav ul, .logo{
@@ -49,7 +49,7 @@ float: right;
 .logo, .btn a{
   width: 20%;
 }
-ul{
+nav ul{
   width: 60%;
   margin-left: 50px;
 }
@@ -59,7 +59,7 @@ ul{
 nav a{
   color: #fff;
 }
-.row .btn a{
+.row .btn a, .final-footer a{
   color: #000;
   background-color: #fff;
   padding: 10px 16px;
@@ -171,10 +171,76 @@ main .end-banner p{
   top: 70%;
   right: 10%;
 }
-.end-banner .cyan{
+.end-banner .cyan, a .cyan{
   background-color: rgb(131,	151,	220);
   margin-top: 40px;
   display: inline-block;
   color: #fff;
 }
 /* End Main */
+
+/* Start Footer */
+footer{
+  background-color: rgb(32,	35,	37);
+}
+.social{
+  width: 28%;
+  float: left;
+}
+.product, .company, .resources, .standards{
+  width: 18%;
+  float: left;
+}
+.social ul li i{
+  color: #fff;
+}
+.social img{
+  width: 20px;
+}
+span::after{
+  content:"	\2304";
+  font-size: 12px;
+  vertical-align: top;
+}
+.social ul li{
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.social h3{
+  font-size: 30px;
+}
+.social span{
+  margin-bottom: 10px;
+  display: inline-block;
+color: #fff;
+}
+.social h3{
+  color: rgb(102,	126, 213);
+  margin: 20px 0;
+}
+.container-footer li{
+  list-style: none;
+  margin: 10px 0;
+}
+.container-footer h4{
+  color: rgb(102,	126, 213);
+  margin-top: 30px;
+}
+.container-footer li{
+  color: #fff;
+}
+.final-footer{
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.final-footer a{
+  float: right;
+  background-color: rgb(131,	151,	220);
+  color: #fff;
+}
+.container-footer{
+  border-bottom: 1px solid rgb(102,	126, 213);
+  padding-bottom: 30px;
+}
+/* End Footer */
